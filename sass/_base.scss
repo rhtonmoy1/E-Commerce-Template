@@ -1,0 +1,43 @@
+.container {
+  background-color: white;
+  width: 1040px;
+  margin: 30px auto;
+
+  display: grid;
+  grid-template-rows: 100px 300px 600px 300px 300px;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+
+  grid-template-areas:
+    "header "
+    "slide "
+    "gallery "
+    "news "
+    "footer ";
+  & > * {
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .slide {
+    grid-area: slide;
+  }
+
+  .gallery {
+    grid-area: gallery;
+  }
+
+  .news {
+    grid-area: news;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+}

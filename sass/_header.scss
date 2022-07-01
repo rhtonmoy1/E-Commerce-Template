@@ -1,0 +1,17 @@
+.header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+
+  grid-template-areas:
+    "header1 "
+    "header2 ";
+
+  .header1 {
+    grid-area: header1;
+  }
+
+  .header2 {
+    grid-area: header2;
+  }
+}

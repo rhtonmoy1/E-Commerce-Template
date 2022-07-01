@@ -1,0 +1,97 @@
+.container .footer .footer_content {
+  background-image: linear-gradient(to right, #000000, #8a9c96);
+}
+
+.container .footer .footer_content h3 {
+  font-size: 22px;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+
+.container .footer .footer_content .subscribe {
+  padding-left: 22%;
+}
+
+.container .footer .footer_content .subscribe input {
+  width: 400px;
+  height: 30px;
+  text-align: left;
+  padding: 10px;
+}
+.container .footer .footer_content .subscribe button {
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  background: #d64e4e;
+  color: white;
+  padding: 20px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container .footer .footer_content .button {
+  padding-top: 20px;
+}
+
+.container .footer .footer_content .button ul {
+  display: flex;
+  font-size: 12px;
+}
+
+.container .footer .footer_content .button ul li {
+  margin: 0 12px;
+  margin-right: 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.container .footer .footer_content .button ul li a {
+  display: block;
+  padding: 8px 10px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container .footer .footer_content .button ul li:hover {
+  background: #d64e4e;
+}
+
+.container .footer .footer_content p {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.container .footer .footer_content .icon {
+  padding-top: 20px;
+  padding-left: 36.5%;
+}
+
+.container .footer .footer_content .icon ul {
+  display: flex;
+  font-size: 12px;
+}
+
+.container .footer .footer_content .icon ul li {
+  margin: 0 12px;
+  margin-right: 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.container .footer .footer_content .icon ul li a {
+  display: block;
+  padding: 8px 10px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container .footer .footer_content .icon ul li img {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}

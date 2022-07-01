@@ -1,0 +1,31 @@
+.color {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
+
+  grid-template-areas: "c1 c2 c3 c4 c5 ";
+
+  .c1 {
+    grid-area: c1;
+    background-color: red;
+  }
+
+  .c2 {
+    grid-area: c2;
+    background-color: blue);
+  }
+
+  .c3 {
+    grid-area: c3;
+    background-color: green;
+  }
+
+  .c4 {
+    grid-area: c4;
+    background-color: yellow;
+  }
+  .c5 {
+    grid-area: c5;
+    background-color: black;
+  }
+}

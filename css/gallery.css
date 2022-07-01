@@ -1,0 +1,140 @@
+.container .gallery .sidebar {
+  justify-content: space-between;
+  text-align: left;
+  font-size: medium;
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 10px;
+
+  background-color: rgb(238, 238, 245);
+}
+
+.container .gallery .sidebar h3 {
+  font-size: 16px;
+  color: rgb(4, 4, 4);
+}
+
+.container .gallery .sidebar p {
+  font-size: 12px;
+  color: rgb(112, 137, 137);
+}
+
+.container .gallery .pic1 img {
+  vertical-align: middle;
+
+  width: 300px;
+  height: 280px;
+}
+
+.container .gallery .pic2 img {
+  vertical-align: middle;
+
+  width: 300px;
+  height: 280px;
+}
+
+.container .gallery .mainpic img {
+  vertical-align: middle;
+
+  width: 467px;
+  height: 560px;
+}
+
+.container .gallery .sidebar .color .c1 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+.container .gallery .sidebar .color .c2 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+.container .gallery .sidebar .color .c3 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+.container .gallery .sidebar .color .c4 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+.container .gallery .sidebar .color .c5 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.container .gallery .sidebar .size .custom-select .slceltor {
+  width: 200px;
+  height: 30px;
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px;
+  padding: 5px;
+  border: none;
+}
+
+.container .gallery .sidebar .product_view .view_button .btn1 {
+  border-start-start-radius: 25%;
+  border-end-start-radius: 25%;
+}
+
+.container .gallery .sidebar .product_view .view_button .btn2 {
+  border-end-end-radius: 25%;
+  border-start-end-radius: 25%;
+}
+
+.container .gallery .sidebar .product_view .view_button button {
+  background-color: #ffffff; /* Green background */
+  border: 1px solid rgb(0, 0, 0); /* Green border */
+  color: rgb(3, 3, 3); /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.container .gallery .sidebar .product_view .view_button:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container
+  .gallery
+  .sidebar
+  .product_view
+  .view_button
+  button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.container .gallery .sidebar .product_view .view_button button:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.container .gallery .sidebar .add_cart button {
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  background: #d64e4e;
+  color: white;
+  padding: 20px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}

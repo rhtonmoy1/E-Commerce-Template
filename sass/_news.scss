@@ -1,0 +1,23 @@
+.news {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  grid-template-areas: "news1 news2 news3 news4";
+
+  .news1 {
+    grid-area: news1;
+  }
+
+  .news2 {
+    grid-area: news2;
+  }
+
+  .news3 {
+    grid-area: news3;
+  }
+
+  .news4 {
+    grid-area: news4;
+  }
+}

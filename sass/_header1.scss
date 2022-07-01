@@ -1,0 +1,19 @@
+.header1 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-template-areas: "logo search header_button ";
+
+  .logo {
+    grid-area: logo;
+  }
+
+  .search {
+    grid-area: search;
+  }
+
+  .header_button {
+    grid-area: header_button;
+  }
+}

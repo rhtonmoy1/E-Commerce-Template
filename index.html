@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/slideShow.css" />
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/footer.css">
+  </head>
+  <body class="container">
+    <heading class="header">
+      <heading_1 class="header1">
+        <logo class="logo">
+          <p><span>Tonmoy</span> E-Commerce</p>
+        </logo>
+
+        <input class="search" type="text" placeholder="Search" />
+        
+
+        <heading_1_button class="header_button">
+          <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">SignUp</a></li>
+            <li><a href="#"><img src="/assets/Icon/chart.png" alt=""></a></li>
+          </ul>
+        </heading_1_button>
+      </heading_1>
+      <heading_2 class="header2">
+        <heading_2_Button class="button">
+          <ul>
+            <li><a href="#">Cloting</a></li>
+            <li><a href="#">Stickers</a></li>
+            <li><a href="#">Masks</a></li>
+            <li><a href="#">Phone Cases</a></li>
+            <li><a href="#">Wall Art</a></li>
+            <li><a href="#">Home @ Living</a></li>
+            <li><a href="#">Kids @ Babies</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Gift</a></li>
+            <li><a href="#">Explore Designs</a></li>
+          </ul>
+        </heading_2_Button>
+      </heading_2>
+    </heading>
+
+    <!-- Slide -->
+    <slide class="slide">
+      <slide_container class="slideshow-container">
+        <slice_fade class="mySlides fade">
+          <slide_image class="numbertext"></slide_image>
+          <img
+            src="assets/image/slide1.jpg"
+         
+          />
+          <image_text class="text"></image_text>
+        </slice_fade>
+
+        <slide_fade class="mySlides fade">
+          <slide_text class="numbertext"></slide_text>
+          <img
+            src="assets/image/slide2.jpg"
+          
+          
+          />
+          <slide_text class="text"></slide_text>
+        </slide_fade>
+
+        <slide_fade class="mySlides fade">
+          <slide_text class="numbertext"></slide_text>
+          <img
+            src="assets/image/slide3.jpg"
+           
+          />
+          <slide_text class="text"></slide_text>
+        </slide_fade>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </slide_container>
+      <br />
+  
+      <slide_click style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </slide_click>
+      </slide>
+    
+
+    <gallery class="gallery">
+      <figure class="pic1">
+        <img src="assets/image/pic1.PNG" alt="pic1">
+      </figure>
+      <figure class="pic2">
+        <img src="assets/image/pic2.PNG" alt="pic2">
+      </figure>
+      <figure class="mainpic">
+        <img src="assets/image/main_pic.PNG" alt="main_pic">
+      </figure>
+
+      <aside class="sidebar">
+        <details class="product_name">
+          <h3>Bodge Job Classic T-Shirt</h3>
+          <p>Designed and sold by jackteagle</p>
+        </details>
+        <details class="product_price">
+          <h3>$22.88</h3>
+          <h3><br/>Color</h3>
+        </details>
+        <div class="color">
+          <button class="c1"></button>
+          <button class="c2"></button>
+          <button class="c3"></button>
+          <button class="c4"></button>
+          <button class="c5"></button>
+        </div>
+        <details class="size">
+          <h3>Size</h3>
+          <div class="custom-select">
+            <select class="slceltor">
+              <option value="0">Choose a size:</option>
+              <option value="1">S</option>
+              <option value="2">M</option>
+              <option value="3">L</option>
+              <option value="4">XL</option>
+              <option value="5">2XL</option>
+              <option value="6">3XL</option>
+              <option value="7">4XL</option>
+              <option value="8">5XL</option>
+            </select>
+          </div>
+        </details>
+        <div class="product_view">
+          <h3>Print Location</h3>
+          <div class="view_button">
+            <button class="btn1">Font</button>
+            <button class="btn2">Back</button>
+          </div>
+        </div>
+        <div class="add_cart">
+          <button>Add to Chart</button>
+        </div>
+        <div class="comment">
+          <h3>Delivery</h3>
+          <p>Express by 1 July</br>
+            Standard between 14 - 18 July</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="news">
+      <div class="news1">
+        <img src="assets/image/news_image/img1.PNG" alt="img1">
+      </div>
+      <div class="news2">
+        <img src="assets/image/news_image/img2.PNG" alt="img2">
+      </div>
+      <div class="news3">
+        <img src="assets/image/news_image/img3.PNG" alt="img3">
+      </div>
+      <div class="news4">
+        <img src="assets/image/news_image/img4.PNG" alt="img4">
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer_content">
+
+        <h3>Subscribe for special offers & updates</h3>
+      
+         
+            <div class="subscribe">
+              <input type="text" id="fname" name="firstname" placeholder="Enter your email address">
+              <button>SUBSCRIBE</button>
+            </div>
+  
+            <div class="button">
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">social responsibility</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">delivery</a></li>
+                <li><a href="#">investor centre</a></li>
+                <li><a href="#">jobs</a></li>
+                <li><a href="#">contact us</a></li>
+                <li><a href="#">help</a></li>
+              </ul>
+            </div>
+
+            <div class="icon">
+              <ul>
+                <li><a href="#"><img src="assets/Icon/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="assets/Icon/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="assets/Icon/twitter.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="assets/Icon/tumblr.png" alt="tumblr"></a></li>
+                <li><a href="#"><img src="assets/Icon/pinterest.png" alt="painterest"></a></li>
+              </ul>
+            </div>
+          
+            <p>© 2022 Rafiul Hasan Tonmoy | All rights reserved</p>
+      </div>
+    
+    </div>
+    <script src="js/slideShow.js"></script>
+  </body>
+</html>

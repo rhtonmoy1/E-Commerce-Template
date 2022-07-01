@@ -1,0 +1,11 @@
+.footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+
+  grid-template-areas: "footer_content";
+
+  .footer_contenr {
+    grid-area: footer_content;
+  }
+}

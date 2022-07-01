@@ -1,0 +1,11 @@
+.header2 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+
+  grid-template-areas: "button1";
+
+  .button {
+    grid-area: button1;
+  }
+}
